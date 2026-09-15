@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&family=Manrope:wght@600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-hanken: 'Hanken Grotesk', sans-serif;
+  --font-manrope: 'Manrope', sans-serif;
+  --color-rail-navy: #0F2D6B;
+  --color-rail-blue: #1E40AF;
+  --color-rail-green: #10B981;
+  --color-rail-amber: #F59E0B;
+  --color-rail-red: #EF4444;
+  --color-rail-bg: #F0F4F8;
+  --color-rail-surface: #FFFFFF;
+  --color-rail-text: #0F172A;
+  --color-rail-muted: #64748B;
+  --color-rail-border: #E2E8F0;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: #F0F4F8;
+  color: #0F172A;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+scrollbar-width: none;

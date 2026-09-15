@@ -1,0 +1,10 @@
+{
+  "description": "Navigate Chennai's suburban train system effortlessly with real-time updates, detailed train information, and personalized notifications for a seamless travel experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
